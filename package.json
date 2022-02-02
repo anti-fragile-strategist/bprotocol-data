@@ -1,0 +1,24 @@
+{
+  "name": "bpro-data",
+  "version": "1.0.0",
+  "description": "bprotocol-data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "node scraper/index.js",
+    "serve": "cd dashboard && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anti-fragile-strategist/bprotocol-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anti-fragile-strategist/bprotocol-data/issues"
+  },
+  "homepage": "https://github.com/anti-fragile-strategist/bprotocol-data#readme",
+  "dependencies": {
+    "x-ray": "^2.3.4"
+  }
+}
