@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scrape": "node scraper/index.js",
-    "serve": "cd dashboard && npm run serve"
+    "serve": "cd dashboard && npm run serve",
+    "build": "cd dashboard && npm run build",
+    "deploy": "gh-pages -d dashboard/dist"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
   "homepage": "https://github.com/anti-fragile-strategist/bprotocol-data#readme",
   "dependencies": {
     "x-ray": "^2.3.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
