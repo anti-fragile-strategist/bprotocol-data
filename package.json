@@ -7,8 +7,7 @@
     "install:all": "npm i && cd dashboard && npm i && cd ../scraper && npm i",
     "scrape": "node scraper/index.js",
     "serve": "cd dashboard && npm run serve",
-    "build": "cd dashboard && npm run build",
-    "deploy": "gh-pages -d dashboard/dist"
+    "build": "cd dashboard && npm run build"
   },
   "repository": {
     "type": "git",
@@ -23,7 +22,5 @@
   "dependencies": {
     "x-ray": "^2.3.4"
   },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
-  }
+  "devDependencies": {}
 }
