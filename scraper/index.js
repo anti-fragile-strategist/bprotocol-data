@@ -21,6 +21,8 @@ const init = async () => {
     console.log(`found ${newLiquidations} new liquidations`)
     await fs.writeFile(process.cwd() + `/data/liquidation.json`, JSON.stringify(liquidations, null, 2))
     console.log("all done!")
+  } else{
+    console.log(`no new liquidations found :(`)
   }
 }
 

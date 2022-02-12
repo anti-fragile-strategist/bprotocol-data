@@ -1,15 +1,24 @@
 <template>
   <div id="app">
     <header class="container">
-      <h1>Liquidations Dashboard</h1>
+      <h1>B.Protocol</h1>
     </header>
     <main class="container">
-      <Totals :data="data"/>
-      <Distrobutions :data="data"/>
-      <MainGraph :data="data"/>
+        <h3>Liquidations</h3>
+        <Totals :data="data"/>
+        <Distrobutions :data="data"/>
+        <!-- <MainGraph :data="data"/> -->
+
+        <h3>Rebalancing</h3>
     </main>
     <footer class="container">
-      <small>all rights reserved</small>
+      <section></section>
+      <p>
+        <hgroup>
+          <h5>made with <strong style="color:red">&#9829;</strong> by the <span style='font-family:"Bradley Hand"'>Anti-Fragile-Strategiest</span></h5>
+          <h6>more data comming soon&#8482;</h6>
+        </hgroup>
+      <p/>
     </footer>
   </div>
 </template>
